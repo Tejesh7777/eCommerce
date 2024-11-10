@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Listing</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1><em>𝒍𝒆𝒕'𝒔 𝑺𝒉𝒐𝒑</em>
+        <img src="hhhhhh..webp"
+         height="25" width="30"></h1>
+        <nav>
+            <ul>
+                <li><a href="project2.html">Home</a></li>
+                <li><a href="project3.html">Products</a></li>
+                
+            </ul>
+        </nav>
+    </header>
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Purchase</title>
+    <link rel="stylesheet" href="styling.css">
+</head>
+<body>
+    <div class="purchase-container">
+        <div class="product-details">
+            <img src="GROCERY64(CKAE SLICES).webp" 
+            height="300" width="300"     alt="Product Image" class="product-image">
+            <div class="product-info">
+                <h1 class="product-name">Awesome Product</h1>
+                <p class="product-description">This product is amazing. It offers the best value in its category.</p>
+                <div class="product-price">
+                    <span>499&#8377</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="purchase-form">
+            <h2>Enter Your Details</h2>
+            <form id="purchase-form">
+                <div class="form-group">
+                    <label for="name">Full Name</label>
+                    <input type="text" id="name" name="name" required placeholder="Enter your full name">
+                </div>
+                
+                <div class="form-group">
+                    <label for="email">Email Address</label>
+                    <input type="email" id="email" name="email" required placeholder="Enter your email">
+                </div>
+                
+                <div class="form-group">
+                    <label for="address">Shipping Address</label>
+                    <textarea id="address" name="address" required placeholder="Enter your shipping address"></textarea>
+                </div>
+
+                <div class="form-group">
+                    <label for="card">Credit Card Number</label>
+                    <input type="text" id="card" name="card" required placeholder="Enter your credit card number">
+                </div>
+
+                <button type="submit" class="submit-btn">Complete Purchase</button>
+            </form>
+
+            <p id="confirmation-message" class="confirmation-message"></p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
