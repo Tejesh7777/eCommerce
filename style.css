@@ -1,0 +1,137 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: px;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    line-height: 1.6;
+}
+
+/* Header Styles */
+header {
+    background: #8d8b9a;
+    color: #000000;
+    padding: 40px 0;
+    text-align: center;
+    border-radius: 20px;
+    margin: 10PX;
+}
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+
+
+.product-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+    box-shadow:4px 4PX 4px #375878c4;
+}
+
+.product-card {
+    background: white;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin: 15px;
+    padding: 15px;
+    text-align: center;
+    width: 200px;
+    box-shadow: 0  4px 8px rgba(201, 36, 36, 0.458);
+    text-decoration: none;
+}
+
+.product-card img {
+    max-width: 100%;
+    height: auto;
+}
+
+.product-card h2 {
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+.product-card p {
+    font-size: 16px;
+    color: #333;
+}
+
+.product-card button {
+    background-color: #707e70;
+    color: rgb(182, 46, 46);
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.product-card button:hover {
+    background-color: #ec96d261;
+    text-decoration: none;
+}
+.main,h4{
+    padding-left: 90px;
+    margin: 10PX;
+    padding-top: 40PX;
+    color: rgb(13, 5, 6);
+    padding-bottom: 2PX;
+    background-color:rgba(148, 143, 143, 0.131);
+    font-size: larger;
+    border-radius: 20px;
+}
+.main,h5{
+    background-color: #762f6758;
+    font-size: larger;
+    padding-left: 90px;
+    margin: 10PX;
+    padding-top: 40PX;
+    color: rgb(255, 255, 255);
+    padding-bottom: 2PX;
+  
+    border-radius: 20px;
+}
+.main,h6{
+    background-color: #333;
+    font-size: large;
+    padding-left: 90px;
+    margin: 10PX;
+    padding-top: 40PX;
+    color: rgb(59, 15, 22);
+    padding-bottom: 2PX;
+    background-color:rgba(0, 0, 0, 0.506);
+    border-radius: 20px;
+}
+.main,h3{
+    background-color: #b8a5a5;
+    font-size: larger;
+    padding-left: 90px;
+    margin: 10PX;
+    padding-top: 40PX;
+    color: rgb(59, 15, 22);
+    padding-bottom: 2PX;
+   
+    border-radius: 20px;
+}
+.header,img{
+    border-radius: 10px;
+}
